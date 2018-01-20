@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="062d2869-543c-4459-b2dc-0073ec17844c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/WhixerShipments.Services/ServiceWantToTake.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceWantToTake.disco" MetadataType="Disco" ID="349754da-2035-4e92-94e3-f0e7567c4333" SourceId="1" SourceUrl="http://localhost/WhixerShipments.Services/ServiceWantToTake.svc?disco" />
+    <MetadataFile FileName="ServiceWantToTake.wsdl" MetadataType="Wsdl" ID="e3a10403-b408-49ab-91f6-1dc619f9215f" SourceId="1" SourceUrl="http://localhost/WhixerShipments.Services/ServiceWantToTake.svc?wsdl" />
+    <MetadataFile FileName="ServiceWantToTake.xsd" MetadataType="Schema" ID="a77e4d95-f281-4fca-8147-666be79a0393" SourceId="1" SourceUrl="http://localhost/WhixerShipments.Services/ServiceWantToTake.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceWantToTake1.xsd" MetadataType="Schema" ID="68a143ed-a56f-45cb-bad6-cd1626527c1f" SourceId="1" SourceUrl="http://localhost/WhixerShipments.Services/ServiceWantToTake.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

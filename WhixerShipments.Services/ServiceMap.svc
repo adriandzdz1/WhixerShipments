@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WhixerShipments.Services.ServiceMap" CodeBehind="ServiceMap.svc.cs" %>

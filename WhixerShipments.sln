@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhixerShipments", "WhixerShipments\WhixerShipments.csproj", "{F3E807E7-B612-4FAD-B9DB-16742A150984}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WhixerShipments.BackEnd", "WhixerShipments.BackEnd", "{CF153AEB-89F2-4BD9-8F3A-EDDD4A42713C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WhixerShipments.FrontEnd", "WhixerShipments.FrontEnd", "{3623B3A5-066A-48F4-A9F6-1E407369DFC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhixerShipments.Facade", "WhixerShipments.Facade\WhixerShipments.Facade.csproj", "{5D26B2CE-9BAE-4741-AE28-02E9548D339D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{76F10334-6E33-4191-841C-396A2FB1ED9D} = {76F10334-6E33-4191-841C-396A2FB1ED9D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhixerShipments.Services", "WhixerShipments.Services\WhixerShipments.Services.csproj", "{76F10334-6E33-4191-841C-396A2FB1ED9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhixerShipments.BusinessLogic", "WhixerShipments.BusinessLogic\WhixerShipments.BusinessLogic.csproj", "{7F8828DB-78D2-4745-A198-F4CDA95EA290}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WhixerShipments.Commun", "WhixerShipments.Commun", "{451B1507-386C-4946-9228-89A04E311974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhixerShipments.DTO", "WhixerShipments.Dto\WhixerShipments.DTO.csproj", "{BE3711DF-30A2-4B33-A7B5-527C9BE58CEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3E807E7-B612-4FAD-B9DB-16742A150984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E807E7-B612-4FAD-B9DB-16742A150984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E807E7-B612-4FAD-B9DB-16742A150984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E807E7-B612-4FAD-B9DB-16742A150984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D26B2CE-9BAE-4741-AE28-02E9548D339D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D26B2CE-9BAE-4741-AE28-02E9548D339D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D26B2CE-9BAE-4741-AE28-02E9548D339D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D26B2CE-9BAE-4741-AE28-02E9548D339D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F10334-6E33-4191-841C-396A2FB1ED9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F10334-6E33-4191-841C-396A2FB1ED9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F10334-6E33-4191-841C-396A2FB1ED9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F10334-6E33-4191-841C-396A2FB1ED9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8828DB-78D2-4745-A198-F4CDA95EA290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8828DB-78D2-4745-A198-F4CDA95EA290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8828DB-78D2-4745-A198-F4CDA95EA290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8828DB-78D2-4745-A198-F4CDA95EA290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3711DF-30A2-4B33-A7B5-527C9BE58CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3711DF-30A2-4B33-A7B5-527C9BE58CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3711DF-30A2-4B33-A7B5-527C9BE58CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3711DF-30A2-4B33-A7B5-527C9BE58CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3E807E7-B612-4FAD-B9DB-16742A150984} = {3623B3A5-066A-48F4-A9F6-1E407369DFC1}
+		{5D26B2CE-9BAE-4741-AE28-02E9548D339D} = {3623B3A5-066A-48F4-A9F6-1E407369DFC1}
+		{76F10334-6E33-4191-841C-396A2FB1ED9D} = {CF153AEB-89F2-4BD9-8F3A-EDDD4A42713C}
+		{7F8828DB-78D2-4745-A198-F4CDA95EA290} = {CF153AEB-89F2-4BD9-8F3A-EDDD4A42713C}
+		{BE3711DF-30A2-4B33-A7B5-527C9BE58CEF} = {451B1507-386C-4946-9228-89A04E311974}
+	EndGlobalSection
+EndGlobal

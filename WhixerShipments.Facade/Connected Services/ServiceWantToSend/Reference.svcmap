@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="aa531c15-34e7-415e-bc97-d3c0b4ff83d3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/WhixerShipments.Services/ServiceWantToSend.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceWantToSend1.xsd" MetadataType="Schema" ID="ef69fdcf-12dd-4a5f-b22b-1c8920a7ea50" SourceId="1" SourceUrl="http://localhost/WhixerShipments.Services/ServiceWantToSend.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceWantToSend.wsdl" MetadataType="Wsdl" ID="d8ca53d5-0585-4b0a-a89e-cb5900489ed4" SourceId="1" SourceUrl="http://localhost/WhixerShipments.Services/ServiceWantToSend.svc?wsdl" />
+    <MetadataFile FileName="ServiceWantToSend.xsd" MetadataType="Schema" ID="4dd1a693-828b-4138-9bd6-bbb1e885825a" SourceId="1" SourceUrl="http://localhost/WhixerShipments.Services/ServiceWantToSend.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceWantToSend.disco" MetadataType="Disco" ID="c6e7c45e-e62e-49c9-acc8-4a41fb604ec5" SourceId="1" SourceUrl="http://localhost/WhixerShipments.Services/ServiceWantToSend.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

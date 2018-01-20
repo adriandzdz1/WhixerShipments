@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2cf0946f-c6c3-473f-8075-fbe45a79a178" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/WhixerShipments.Services/ServiceFlight.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceFlight.xsd" MetadataType="Schema" ID="b65ca321-f4e1-4aca-9a1a-3348d64240a5" SourceId="1" SourceUrl="http://localhost/WhixerShipments.Services/ServiceFlight.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceFlight1.xsd" MetadataType="Schema" ID="00b8bffb-52f8-4ae6-af09-c5bfe34aa612" SourceId="1" SourceUrl="http://localhost/WhixerShipments.Services/ServiceFlight.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceFlight.wsdl" MetadataType="Wsdl" ID="2616dc4c-4c7b-4710-a0d6-5a60a94bfe27" SourceId="1" SourceUrl="http://localhost/WhixerShipments.Services/ServiceFlight.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
